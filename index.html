@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>神楽坂 琥珀</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Cache-Control" content="no-transform">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <meta name="robots" content="index,follow">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="keywords" content="Hupo,神楽坂 琥珀,主页">
+    <meta name="description" content="琥珀の个人主页">
+    <link rel="icon" type="image/x-icon" href="https://www.hupo.moe/favicon.ico">
+    <link rel="stylesheet" href="statics/css/main.css">
+    <link rel="stylesheet" href="statics/css/font-awesome.min.css">
+    <script src="statics/js/jquery.min.js"></script>
+    <script src="statics/js/aplayer.min.js"></script>
+  </head>
+  <body>
+    <div class="loading">
+        <div class="spinner">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+        </div>
+    </div>
+    <script>
+        var picnum = parseInt(Math.random()*20+1);
+        document.write('<div class="bak" style="background-image: url(https://www.hupo.moe/img/background.jpg);"></div>');
+    </script>
+    <main>
+        <div class="content">
+            <div class="left">
+                <div class="avatar">
+                    <img src="https://www.hupo.moe/img/LOGO.png">
+                </div>
+                <ul class="menu">
+                    <li>
+                        <a goto="#home" class="active">主页</a>
+                    </li>
+                    <li>
+                        <a goto="#archives">档案</a>
+                    </li>
+                    <li>
+                        <a goto="#about">关于</a>
+                    </li>
+                    <li>
+                        <a goto="#donate">投喂</a>
+                    </li>
+                </ul>
+                <div class="copyright">
+                    Made with
+                    <i class="fa fa-heart"></i> by
+                    <br>
+                    <a href="https://fly.moe" target="_blank">Fly3949</a>
+                </div>
+            </div>
+            <div class="right">
+                <section id="home" class="active">
+                    <h1>神楽坂 琥珀</h1>
+                    <div class="items">
+                        <a href="https://blog.hupo.moe/" rel="noopener">
+                            <i class="fa fa-home"></i>
+                            <span>Blog</span>
+                        </a>
+                        <a href="https://github.com/Chenhupo" target="_blank" rel="noopener">
+                            <i class="fa fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="mailto:Kohaku233@qq.com" target="_blank" rel="noopener">
+                            <i class="fa fa-envelope"></i>
+                            <span>E-Mail</span>
+                        </a>
+                        <a href="https://twitter.com/Chenhupo" target="_blank" rel="noopener">
+                            <i class="fa fa-twitter"></i>
+                            <span>Twitter</span>
+                        </a>
+                        <a href="https://www.facebook.com/Kagurazaka.kohaku" target="_blank" rel="noopener">
+                            <i class="fa fa-facebook-official"></i>
+                            <span>Facebook</span>
+                        </a>
+                        <a href="https://t.me/Chenhupo" target="_blank" rel="noopener">
+                            <i class="fa fa-telegram"></i>
+                            <span>Telegram</span>
+                        </a>
+                    </div>
+                </section>
+                <section id="archives">
+                    <h1>近期文章</h1>
+                    <ul class="archive-list">
+                        <li>Loading...</li>
+                    </ul>
+                </section>
+                <section id="about">
+                    <h1>关于我</h1>
+                    <p>
+                        神楽坂 琥珀<br>Kagurazaka Kohaku<br>
+                        没啥特长 / 还不会女装 / 宅 / <del>变态</del>loli控 / 二次元<br>
+                        こいぬちゃん赛高 ! / 喜欢瞎折腾 / 喜欢搞事情 / 热爱计算机 / <a href="https://www.hupo.moe/about.html" target="_blank">More...</a>
+                    </p>
+                </section>
+                <section id="donate">
+                    <h1>投食区</h1>
+                    <div class="donate-img-box">
+                        <a href="https://www.hupo.moe/pay" target="_blank" rel="noopener">
+                            <img src="https://www.hupo.moe/pay/pay.jpg" >
+                        </a>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <footer>
+            <p id="hitokoto">Loading...</p>
+            <div class="copyright-mobile">
+                Made with
+                <i class="fa fa-heart"></i> by
+                <a href="https://fly.moe" target="_blank">Fly3949</a>
+            </div>
+        </footer>
+        <div class="aplayer-footer">
+            <div class="ap-f" id="ap-f"></div>
+        </div>
+    </main>
+    <script src="statics/js/main.js"></script>
+  </body>
+</html>
